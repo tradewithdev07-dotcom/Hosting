@@ -2,6 +2,7 @@
 name: Codespace Auto ON OFF
 
 on:
+  workflow_dispatch:
   schedule:
     # 2:00 AM IST - Stop Codespace
     - cron: "30 20 * * *"
